@@ -1188,9 +1188,12 @@ a.accordion-toggle  i{
 }
 
 .media_image {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
+.margin_top{
+  margin-top:25px;
+}
 .team .btn {
   background:transparent;
   font-size: 12px;
