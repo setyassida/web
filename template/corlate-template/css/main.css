@@ -52,7 +52,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #d43133;
+  color: #63303a;
 }
 
 hr {
@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+	background-color: #63303a;
   color: #fff;
 }
 
@@ -309,7 +309,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+  background-color: #63303a;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
+  background-color: #63303a;
   color: #fff;
 }
 
@@ -434,7 +434,7 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  background-color: #c52d2f;
+  background-color: #63303a;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -483,9 +483,9 @@ input.search-form:hover {
 #main-slider .carousel-indicators .active{
   width: 20px;
   height: 20px;
-  background-color: #c52d2f;
+  background-color: #63303a;
    margin: 0 15px 0 0;
-   border: 1px solid #c52d2f;
+   border: 1px solid #63303a;
    position: relative;
 }
 
@@ -495,8 +495,8 @@ input.search-form:hover {
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  background: #c52d2f;
-  border: 1px solid #c52d2f;
+  background: #63303a;
+  border: 1px solid #63303a;
   left: -3px;
   top: -3px;
 }
@@ -564,7 +564,7 @@ input.search-form:hover {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #c52d2f;
+  color: #63303a;
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -577,7 +577,7 @@ input.search-form:hover {
 }
 
 .feature-wrap i:hover {
-  background: #c52d2f;
+  background: #63303a;
   color: #fff;
   box-shadow: inset 0 0 0 5px #c52d2f;
   -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
@@ -706,7 +706,7 @@ input.search-form:hover {
 
 .progress .color4,
 .progress .color4 .bar-width{
-  background: #db3615;
+  background: #63303a;
 }
 
 .progress, 
@@ -767,7 +767,7 @@ input.search-form:hover {
 }
 
 .progress .color4 span:before{
-  border-color: #db3615 transparent transparent transparent;
+  border-color: #63303a transparent transparent transparent;
 }
 
 .accordion h2{
@@ -838,12 +838,12 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
-  background: #c52d2f;
+  background: #63303a;
   color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #c52d2f;
+  background: #63303a;
   color: #fff;
 }
 
@@ -1458,7 +1458,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:after {
-  border-color: #c52d2f transparent transparent;
+  border-color: #63303a transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1470,7 +1470,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #63303a transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1771,7 +1771,7 @@ ul.social_icons li  a i{
 }
 
 .pricing-area .heading-one h3:before {
-  border-color: #bf4539 transparent transparent;
+  border-color: #63303a transparent transparent;
 }
 
 .pricing-area .heading-two h3:before {
@@ -1833,7 +1833,7 @@ ul.social_icons li  a i{
 }
 
 .pricing-area .plan-action .btn-primary:before {
-  border-color: #E24F43 transparent transparent;
+  border-color: #63303a transparent transparent;
   border-radius: 5px 0 0 0;
   border-style: solid;
   border-width: 12px;
@@ -1847,7 +1847,7 @@ ul.social_icons li  a i{
 }
 
 .pricing-area .plan-action .btn-primary:after {
-  border-color: #E24F43 transparent transparent;
+  border-color: #63303a transparent transparent;
   border-radius: 5px 0 0 0;
   border-style: solid;
   border-width: 12px;
@@ -2010,7 +2010,7 @@ textarea#message{
 }
 
  .badge:before {
-  border-color: transparent transparent transparent #c52d2f;
+  border-color: transparent transparent transparent #63303a;
   border-style: solid;
   border-width: 10px;
   bottom: -8px;
@@ -2022,7 +2022,7 @@ textarea#message{
 }
 
 .badge {
-  background-color: #c52d2f;
+  background-color: #63303a;
   border-radius: 5px;
   color: #fff;
   padding: 8px;
@@ -2199,8 +2199,8 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
-  background-color: #c52d2f !important;
-  border-color: #c52d2f !important;
+  background-color: #63303a !important;
+  border-color: #63303a!important;
   color: #fff;
 }
 
@@ -2380,7 +2380,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments h1 a:hover{
-  color:#c52d2f;
+  color:#63303a;
 }
 
 .post_reply_comments h4{
@@ -2403,7 +2403,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments a:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #63303a transparent transparent;
   border-style: solid;
   border-width: 16px;
   bottom: -11px;
@@ -2498,7 +2498,8 @@ shortcodes page css
   color: #c52d2f;
 }
 
-#bottom .widget {
+#bottom .
+ {
   margin-bottom: 0;
 }
 
@@ -2514,7 +2515,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-  color: #c52d2f;
+  color: #63303a;
 }
 
 #footer ul {
