@@ -14,10 +14,11 @@ class CreatePrestasiTable extends Migration
     public function up()
     {
         Schema::create('prestasi', function (Blueprint $table) {
-            $table->uuid('id');
+            $table->string('id');
             $table->string('juara');
             $table->string('nama_lomba');
             $table->timestamp('created_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 

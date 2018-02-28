@@ -333,120 +333,20 @@
             </div>
 
             <div class="row">
-
+                @foreach ($list_prestasi as $lp)
                 <div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
                             <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Juara 1 BASIC FTIf Festival 2017</h3>
-                            <p></p>
+                            <h3 class="media-heading">{{$lp->juara}}</h3>
+                            <p>{{$lp->nama_lomba}}</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading"> Juara 2 Mobile Apps Competition 2017</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Juara 2 Application MAGE 2017</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Finalis Go-Hackathon by Go-Jek 2017</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Finalis BCA FinHacks 2016</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="{{asset('images/services/services5.png')}}">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Finalis BRI Hackathon 2016</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
- <!--               <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services4.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services5.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services6.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>  -->                                              
+                @endforeach
+ <!--                                                      
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#services-->
@@ -679,13 +579,13 @@
                 <div class="widget">
                     <ul>
                         <li><h2>2014</h2></li>
-                        <li><a href="http://setomulyadi.ml/Adam W. Bagaskarta">Adam W. Bagaskarta</a></li>
-                        <li><a href="http://setomulyadi.ml/Aditya Ikhsan">Aditya Ikhsan</a></li>
-                        <li><a href="http://setomulyadi.ml/Muhammad Hanif">Muhammad Hanif</a></li>
-                        <li><a href="http://setomulyadi.ml/Setyassida Novian Putra Damara">Setyassida Novian Putra Damara</a></li>
+                        <li><a href="#">Adam W. Bagaskarta</a></li>
+                        <li><a href="#">Aditya Ikhsan</a></li>
+                        <li><a href="#">Muhammad Hanif</a></li>
+                        <li><a href="#">Setyassida Novian Putra Damara</a></li>
                         <li><a href="#">Winda Dwiastini </a></li>
-                        <li><a href="http://setomulyadi.ml/Fatihah Ulya">Fatihah Ulya</a></li>
-                        <li><a href="http://setomulyadi.ml/Irfan Hanif">Irfan Hanif</a></li>
+                        <li><a href="#">Fatihah Ulya</a></li>
+                        <li><a href="#">Irfan Hanif</a></li>
                     </ul>
                 </div>    
             </div><!--/.col-md-3-->
@@ -694,11 +594,22 @@
                 <div class="widget">
                     <ul>
                         <li><h2>2015</h2></li>
-                        <li><a href="http://setomulyadi.ml/Anisa PD">Anisa PD</a></li>
-                        <li><a href="http://setomulyadi.ml/Ariya Wildan">Ariya Wildan</a></li>
-                        <li><a href="http://setomulyadi.ml/Fajar Maulana F">Fajar Maulana F</a></li>
-                        <li><a href="http://setomulyadi.ml/Rafi R. Ramadhan">Rafi R. Ramadhan</a></li>
+                        <li><a href="#">Anisa PD</a></li>
+                        <li><a href="#">Ariya Wildan</a></li>
+                        <li><a href="#">Fajar Maulana F</a></li>
+                        <li><a href="#">Rafi R. Ramadhan</a></li>
+                        <li><a href="http://instagram.com/purinaqa" target="blank">Purina Qurota Ayunin</a></li>
+                    </ul>
+                </div>    
+            </div><!--/.col-md-3-->
 
+            <div class="col-md-3 col-sm-6">
+                <div class="widget">
+                    <ul>
+                        <li><h2>2016</h2></li>
+                        <li><a href="#">Ayas</a></li>
+                        <li><a href="#">Falah Filano</a></li>
+                        <li><a href="#">Muhajir Bin Abdul</a></li>
                     </ul>
                 </div>    
             </div><!--/.col-md-3-->
